@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://maintenance-system-1-hwot.onrender.com/",
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://maintenance-system-1-hwot.onrender.com/',
 })
 
 // Attach token to every request automatically
